@@ -1,0 +1,21 @@
+name: Deploy to Hosting
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Deploy to Hosting
+        uses: SamKirkland/FTP-Deploy-Action@4.0.0
+        with:
+          server: ${{ secrets.vh440.timeweb.ru }}
+          username: ${{ secrets.cz33739 }}
+          password: ${{ secrets.k7bXpgM!!Qs2 }}
+          server-dir:  public_html
