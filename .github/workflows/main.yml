@@ -18,4 +18,4 @@ jobs:
           server: ${{ secrets.vh440.timeweb.ru }}
           username: ${{ secrets.cz33739 }}
           password: ${{ secrets.k7bXpgM!!Qs2 }}
-          server-dir:  public_html
+          server-dir: cz33739.tw1.ru/public_html
