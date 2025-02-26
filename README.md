@@ -16,7 +16,7 @@ documentation https://docs.gitlab.com/ce/user/project/pages/.
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## GitLab CI
+## GitLab CIasdasdasd
 
 This project's static Pages are built by [GitLab CI][ci], following the steps
 defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
