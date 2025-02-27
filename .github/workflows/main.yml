@@ -15,7 +15,7 @@ jobs:
       - name: Deploy to Hosting
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secrets.vh440.timeweb.ru }}
-          username: ${{ secrets.cz33739 }}
-          password: ${{ secrets.k7bXpgM!!Qs2 }}
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME  }}
+          password: ${{ secrets.FTP_PASSWORD }}
           server-dir: cz33739.tw1.ru/public_html
